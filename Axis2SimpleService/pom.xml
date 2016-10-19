@@ -6,4 +6,26 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>Axis2SimpleService</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-log4j12</artifactId>
+  		<version>1.7.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>xerces</groupId>
+  		<artifactId>xercesImpl</artifactId>
+  		<version>2.9.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.axis2</groupId>
+  		<artifactId>axis2-codegen</artifactId>
+  		<version>1.7.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.axis2</groupId>
+  		<artifactId>axis2-adb-codegen</artifactId>
+  		<version>1.7.0</version>
+  	</dependency>
+  </dependencies>
 </project>
